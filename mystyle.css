@@ -62,6 +62,7 @@ h1 {
   margin: 3vw 0;
 }
 
+
 @media (max-width: 768px) {
   h1 {
     font-size: 8vw;
@@ -69,6 +70,10 @@ h1 {
     max-width: 90%;
     letter-spacing: 20px;
   }
+    
+  .button {
+    padding: 5px 10px;    
+    }
 }
 
 @media (max-width: 480px) {
@@ -78,7 +83,12 @@ h1 {
     max-width: 90%;
     letter-spacing: 10px;
   }
+    
+ .button {
+    padding: 5px 10px;    
+    }
 }
+
 
 .descrizione {
   font-family: 'Helvetica', sans-serif;

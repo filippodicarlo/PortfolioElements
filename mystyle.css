@@ -82,6 +82,7 @@ h1 {
 @media (max-width: 480px) {
   h1 {
     font-size: 6vw;
+     margin-top: 5vw; /* Aumenta lo spazio sopra l'h1 su schermi piccoli */
   }
 }
 

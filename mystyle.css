@@ -64,6 +64,10 @@ h1 {
 
 
 @media (max-width: 768px) {
+  .title-container {
+    padding-top: 5vw;
+    }
+    
   h1 {
     font-size: 10vw;
     margin-top: 7vw;
@@ -79,7 +83,11 @@ h1 {
 }
 
 @media (max-width: 480px) {
-  h1 {
+    .title-container {
+    padding-top: 5vw;
+    }
+    
+    h1 {
     font-size: 8vw;
     margin-top: 7vw; /* Aumenta lo spazio sopra l'h1 su schermi piccoli */
     max-width: 90%;

@@ -128,22 +128,6 @@ a {
     box-shadow: 6px 6px 0px #191815;
 }
 
-.grid-container {
-    display: grid; /* Usa CSS Grid */
-    grid-template-columns: repeat(2, 1fr); /* 2 colonne di larghezza uguale */
-    grid-gap: 10px; /* Spaziatura tra le immagini */
-    width: 90%; /* Larghezza della griglia */
-    margin: 0 auto 5vw; /* Centra la griglia */
-}
-
-.grid-item {
-    width: 100%; /* Le immagini riempiono le celle */
-    height: auto; /* Mantieni le proporzioni */
-    object-fit: cover; /* Assicura che le immagini si adattino bene */
-    border: 2px solid #191815; /* Bordo per estetica (opzionale) */
-}
-
-
 .divider {
     max-width: 100vw;
     height: 3px;

@@ -19,9 +19,11 @@ body {
  left: 4vw;
  padding: 5px 5px 5px 1.5vw;
  width: 90vw;
+ height: auto;
 }
 
 .logo-container img {
+    padding-right: 1vw;
     width: 10vw;
     min-width: 80px;
     height: auto;
@@ -33,7 +35,7 @@ body {
  padding: 5px 15px;
  font-size: 1.3vw;
  font-weight: 200;
- letter-spacing: 2px;
+ letter-spacing: 3px;
  border: none; /* Rimuove eventuali bordi predefiniti */
  outline: none; /* Rimuove eventuali outline predefiniti */
  background: none; /* Assicura che non ci siano sfondi non desiderati */
@@ -56,7 +58,7 @@ h1 {
   font-size: 10vw;
   max-width: 90%;
   font-weight: 100;
-  letter-spacing: 30px;
+  letter-spacing: 35px;
   text-align: left;
   color: #191815; 
   margin: 3vw 0;

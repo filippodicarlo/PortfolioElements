@@ -97,18 +97,6 @@ a {
     background-color: #191815;
 }
 
-.testo-modificabile {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 2vw;
-  font-weight: 100;
-  letter-spacing: 5px;
-  line-height: 1.2;
-  text-align: justify;
-  color: #191815;
-  margin: 1vw 5vw 5vw;
-}
-
-
 .footer-container{
    text-align: left;
    margin-top: 2vw;  

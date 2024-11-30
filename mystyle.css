@@ -65,7 +65,7 @@ body {
 h1 {
   font-family: 'Helvetica', sans-serif;
   font-size: 10vw;
-  max-width: 100%;
+  max-width: 90%;
   font-weight: 100;
   letter-spacing: 30px;
   text-align: left;
@@ -89,7 +89,7 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 5px;
   font-weight: 200;
-  font-size: clamp(16px, 2vw, 24px);
+  font-size: clamp(12px, 2vw, 24px);
 }
 
 a {

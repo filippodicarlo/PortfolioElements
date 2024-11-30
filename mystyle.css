@@ -1,0 +1,185 @@
+/*COLORI
+nero: 191815
+giallo: ffc500
+bianco: f7f2ea
+*/
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'sans-serif';
+  color: #191815;
+  font-size: 2.1vw;
+  background-color: #f7f2ea;
+}
+
+.logo-container {
+ position: absolute;
+ top: 2vw;
+ left: 4vw;
+ padding: 5px 5px 5px 1.5vw;
+ width: 90vw;
+}
+
+.logo-container img {
+    width: 10vw;
+    min-width: 80px;
+    height: auto;
+}
+
+
+.button-area{
+  position: absolute;
+  width: 100%;
+  margin: 2vw auto auto 4vw;
+  padding: 2vw;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;   
+} 
+
+.button {
+ background-color: #f2eee2;
+ border: 2px solid;
+ border-color: #191815; 
+ transition: background-color 0.1s ease;
+ transition: box-shadow 0.1s ease;
+ padding: 10px 20px;
+ font-size: 14px;
+ letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #ffc500;
+    border: 2px solid;
+    border-color: #191815;
+    box-shadow: 6px 6px 0px #191815;
+}
+
+.title-container {
+ width: 90vw;
+ max-width: 90%;
+ padding: 5vw; 
+ text-align: left;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 10vw;
+  max-width: 100%;
+  overflow-wrap: break-word; /* Permette al testo di andare a capo */
+  font-weight: 100;
+  letter-spacing: 30px;
+  text-align: left;
+  color: #191815; 
+  margin: 3vw 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 8vw;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 6vw;
+  }
+}
+
+.descrizione {
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 200;
+  font-size: clamp(16px, 2vw, 24px);
+}
+
+a {
+  color: #191815;
+  font-family: 'Helvetica', sans-serif;   
+  text-decoration: underline;
+}
+
+
+.button-container {
+  gap: 15px;
+  position: relative;
+  width: 40vw;    
+  display: flex;
+  padding: 1vw;
+  margin: -3vw 5vw 2vw 4vw;
+  letter-spacing: 2px;
+}
+
+.header-button {
+ background-color: #f2eee2;
+ border: 2px solid;
+ border-color: #191815; 
+ transition: background-color 0.1s ease;
+ transition: box-shadow 0.1s ease;
+ padding: 10px 20px;
+ font-size: 14px;
+ letter-spacing: 2px;
+}
+
+.header-button:hover {
+    background-color: #ffc500;
+    border: 2px solid;
+    border-color: #191815;
+    box-shadow: 6px 6px 0px #191815;
+}
+
+.grid-container {
+    display: grid; /* Usa CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* 2 colonne di larghezza uguale */
+    grid-gap: 10px; /* Spaziatura tra le immagini */
+    width: 90%; /* Larghezza della griglia */
+    margin: 0 auto 5vw; /* Centra la griglia */
+}
+
+.grid-item {
+    width: 100%; /* Le immagini riempiono le celle */
+    height: auto; /* Mantieni le proporzioni */
+    object-fit: cover; /* Assicura che le immagini si adattino bene */
+    border: 2px solid #191815; /* Bordo per estetica (opzionale) */
+}
+
+
+.divider {
+    max-width: 100vw;
+    height: 3px;
+    background-color: #191815;
+}
+
+.testo-modificabile {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2vw;
+  font-weight: 100;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  text-align: justify;
+  color: #191815;
+  margin: 1vw 5vw 5vw;
+}
+
+
+.footer-container{
+   text-align: left;
+   margin-top: 2vw;  
+   background-color: #f7f2ea;
+   padding-top: 50px;
+   margin: 2vw 5vw 2vw;
+}
+
+.footer-container img{
+   width:10vw;
+}
+
+.footer{
+   width: 90vw;
+   text-align: left;
+   font-family: 'Helvetica', sans-serif;
+   font-size: 12px;
+   font-weight: 100;
+   padding-bottom: 50px;
+   padding-left: 0px;
+}

@@ -82,6 +82,13 @@ h1 {
     letter-spacing: 1px;
     font-size: 12px;
     }
+    
+  .posters-title {
+     font-size: 4vw;
+     letter-spacing: 12px;
+     max-width: 50%;
+        
+    }
 }
 
 @media (max-width: 480px) {
@@ -101,6 +108,13 @@ h1 {
     letter-spacing: 1px;
     font-size: 12px;
     }
+    
+  .posters-title {
+     font-size: 4vw;
+     letter-spacing: 12px;
+     max-width: 50%;
+        
+    }
 }
 
 
@@ -108,8 +122,27 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 5px;
   font-weight: 200;
-  font-size: clamp(12px, 2vw, 24px);
+  font-size: clamp(12px, 2vw, 30px);
 }
+
+.posters-container {
+ width: 90vw;
+ max-width: 90%;
+ padding: 5vw; 
+ text-align: left;
+}
+
+.posters-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: clamp(14px, 4vw, 60px);
+  max-width: 90%;
+  font-weight: 100;
+  letter-spacing: 30px;
+  text-align: left;
+  color: #191815; 
+  margin: 3vw 0;
+} 
+    
 
 a {
   color: #191815;

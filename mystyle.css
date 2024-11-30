@@ -1,7 +1,8 @@
 /*COLORI
 nero: 191815
 giallo: ffc500
-bianco: f7f2ea
+bianco: f8f4ed
+rosa: cca4a3
 */
 
 body {
@@ -9,7 +10,7 @@ body {
   font-family: 'Helvetica', 'sans-serif';
   color: #191815;
   font-size: 2.1vw;
-  background-color: #f7f2ea;
+  background-color: #f8f4ed;
 }
 
 .logo-container {
@@ -26,33 +27,18 @@ body {
     height: auto;
 }
 
-
-.button-area{
-  position: absolute;
-  width: 100%;
-  margin: 2vw auto auto 4vw;
-  padding: 2vw;
-  display: flex;
-  gap: 15px;
-  justify-content: flex-start;   
-} 
-
 .button {
- background-color: #f2eee2;
- border: 2px solid;
- border-color: #191815; 
- transition: background-color 0.1s ease;
- transition: box-shadow 0.1s ease;
- padding: 10px 20px;
- font-size: 14px;
+ text-decoration: none; 
+ margin-top: auto;
+ padding: 5px 20px;
+ font-size: 16px;
+ font-weight: 200;
  letter-spacing: 2px;
 }
 
 .button:hover {
-    background-color: #ffc500;
-    border: 2px solid;
-    border-color: #191815;
-    box-shadow: 6px 6px 0px #191815;
+ text-decoration: underline;
+ font-weight: 500;
 }
 
 .title-container {
@@ -105,34 +91,6 @@ a {
 }
 
 
-.button-container {
-  gap: 15px;
-  position: relative;
-  width: 40vw;    
-  display: flex;
-  padding: 1vw;
-  margin: -3vw 5vw 2vw 4vw;
-  letter-spacing: 2px;
-}
-
-.header-button {
- background-color: #f2eee2;
- border: 2px solid;
- border-color: #191815; 
- transition: background-color 0.1s ease;
- transition: box-shadow 0.1s ease;
- padding: 10px 20px;
- font-size: 14px;
- letter-spacing: 2px;
-}
-
-.header-button:hover {
-    background-color: #ffc500;
-    border: 2px solid;
-    border-color: #191815;
-    box-shadow: 6px 6px 0px #191815;
-}
-
 .divider {
     max-width: 100vw;
     height: 3px;
@@ -154,7 +112,6 @@ a {
 .footer-container{
    text-align: left;
    margin-top: 2vw;  
-   background-color: #f7f2ea;
    padding-top: 50px;
    margin: 2vw 5vw 2vw;
 }

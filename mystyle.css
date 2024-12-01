@@ -83,8 +83,8 @@ h1 {
     font-size: 12px;
     }
     
-  .posters-title {
-     font-size: 16px;
+  h2.posters-title {
+     font-size: 20px;
      letter-spacing: 3px;
      max-width: 30%;
         
@@ -109,8 +109,8 @@ h1 {
     font-size: 12px;
     }
     
-  .posters-title {
-     font-size: 12px;
+  h2.posters-title {
+     font-size: 15px;
      letter-spacing: 2px;
      max-width: 30%;
         
@@ -132,9 +132,9 @@ h1 {
  text-align: left;
 }
 
-.posters-title {
+h2.posters-title {
   font-family: 'Helvetica', sans-serif;
-  font-size: 4vw;
+  font-size: 5vw;
   max-width: 90%;
   font-weight: 100;
   letter-spacing: 30px;

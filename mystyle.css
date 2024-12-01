@@ -105,6 +105,7 @@ h1 {
     letter-spacing: 1px;
     font-size: 12px;
     }
+    
   .posters-title {
     font-size: 20px;    
     }
@@ -127,10 +128,10 @@ h1 {
 
   .posters-title {
   font-family: 'Helvetica', sans-serif;
-  font-size: 5vw;
+  font-size: clamp(20px, 2vw, 80px);
   max-width: 90%;
-  font-weight: 100;
-  letter-spacing: clamp(10px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: clamp(10px, 2vw, 40px);
   text-align: left;
   color: #191815; 
   margin: 3vw 0;

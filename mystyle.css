@@ -82,6 +82,10 @@ h1 {
     letter-spacing: 1px;
     font-size: 12px;
     }
+
+  .posters-title {
+    font-size: 15px;    
+    }
 }
 
 @media (max-width: 480px) {
@@ -100,6 +104,9 @@ h1 {
     padding: 5px 5px;    
     letter-spacing: 1px;
     font-size: 12px;
+    }
+  .posters-title {
+    font-size: 15px;    
     }
 }
 
@@ -123,7 +130,7 @@ h1 {
   font-size: 5vw;
   max-width: 90%;
   font-weight: 100;
-  letter-spacing: 35px;
+  letter-spacing: clamp(10px, 4vw, 40px);
   text-align: left;
   color: #191815; 
   margin: 3vw 0;

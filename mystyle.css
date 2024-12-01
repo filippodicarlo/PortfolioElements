@@ -128,7 +128,7 @@ h1 {
 
   .posters-title {
   font-family: 'Helvetica', sans-serif;
-  font-size: clamp(20px, 2vw, 80px);
+  font-size: clamp(18px, 2vw, 80px);
   max-width: 90%;
   font-weight: 800;
   letter-spacing: 2vw;

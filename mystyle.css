@@ -83,10 +83,10 @@ h1 {
     font-size: 12px;
     }
     
-  .posters-title {
-    font-size: 10vw;
-    max-width: 90%;
-    letter-spacing: 20px;
+    .posters-title {
+     font-size: 20px;
+     letter-spacing: 3px;
+     max-width: 30%;
         
     }
 }
@@ -109,10 +109,11 @@ h1 {
     font-size: 12px;
     }
     
-  .posters-title {
-     font-size: 8vw;
-    max-width: 90%;
-    letter-spacing: 10px;    
+  posters-title {
+     font-size: 15px;
+     letter-spacing: 2px;
+     max-width: 30%;
+        
     }
 }
 

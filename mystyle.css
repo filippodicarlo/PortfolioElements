@@ -83,10 +83,10 @@ h1 {
     font-size: 12px;
     }
     
-  h1.posters-title {
-     font-size: 20px;
-     letter-spacing: 3px;
-     max-width: 30%;
+  .posters-title {
+    font-size: 10vw;
+    max-width: 90%;
+    letter-spacing: 20px;
         
     }
 }
@@ -109,11 +109,10 @@ h1 {
     font-size: 12px;
     }
     
-  h1.posters-title {
-     font-size: 15px;
-     letter-spacing: 2px;
-     max-width: 30%;
-        
+  posters-title {
+     font-size: 8vw;
+    max-width: 90%;
+    letter-spacing: 10px;    
     }
 }
 
@@ -132,12 +131,12 @@ h1 {
  text-align: left;
 }
 
-h2.posters-title {
+  .posters-title {
   font-family: 'Helvetica', sans-serif;
-  font-size: 5vw;
+  font-size: 10vw;
   max-width: 90%;
   font-weight: 100;
-  letter-spacing: 30px;
+  letter-spacing: 35px;
   text-align: left;
   color: #191815; 
   margin: 3vw 0;

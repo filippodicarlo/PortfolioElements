@@ -83,7 +83,7 @@ h1 {
     font-size: 12px;
     }
     
-  h2.posters-title {
+  h1.posters-title {
      font-size: 20px;
      letter-spacing: 3px;
      max-width: 30%;
@@ -109,7 +109,7 @@ h1 {
     font-size: 12px;
     }
     
-  h2.posters-title {
+  h1.posters-title {
      font-size: 15px;
      letter-spacing: 2px;
      max-width: 30%;

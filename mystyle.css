@@ -85,8 +85,8 @@ h1 {
     
   .posters-title {
      font-size: 16px;
-     letter-spacing: 5px;
-     max-width: 50%;
+     letter-spacing: 3px;
+     max-width: 30%;
         
     }
 }
@@ -111,8 +111,8 @@ h1 {
     
   .posters-title {
      font-size: 12px;
-     letter-spacing: 3px;
-     max-width: 50%;
+     letter-spacing: 2px;
+     max-width: 30%;
         
     }
 }
@@ -134,7 +134,7 @@ h1 {
 
 .posters-title {
   font-family: 'Helvetica', sans-serif;
-  font-size: clamp(14px, 4vw, 60px);
+  font-size: 4vw;
   max-width: 90%;
   font-weight: 100;
   letter-spacing: 30px;

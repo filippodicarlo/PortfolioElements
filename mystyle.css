@@ -94,7 +94,7 @@ h1 {
     }
     
     h1 {
-    font-size: 8vw;
+    font-size: 35px;
     margin-top: 7vw; /* Aumenta lo spazio sopra l'h1 su schermi piccoli */
     max-width: 90%;
     letter-spacing: 10px;

@@ -167,6 +167,10 @@ h1 {
   height: auto; /* Mantiene le proporzioni */
   border: 2px solid #191815; /* Bordo opzionale */
 }
+
+.grid-item:hover {
+  opacity: 40%;  
+}
     
 
 a {

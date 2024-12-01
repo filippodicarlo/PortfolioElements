@@ -136,6 +136,20 @@ h1 {
   color: #191815; 
   margin: 3vw 0;
 } 
+
+.grid-container {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Crea due colonne */
+    grid-gap: 20px;  /* Spazio tra le immagini */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-item {
+  width: 100%; /* Adatta le immagini alla cella */
+  height: auto; /* Mantiene le proporzioni */
+  border: 2px solid #191815; /* Bordo opzionale */
+}
     
 
 a {

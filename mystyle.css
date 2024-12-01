@@ -141,7 +141,7 @@ h1 {
   display: grid;
     grid-template-columns: repeat(2, 1fr);  /* Crea due colonne */
     grid-gap: 20px;  /* Spazio tra le immagini */
-    width: 100%;
+    width: 90vw;
     margin: 0 auto;
 }
 

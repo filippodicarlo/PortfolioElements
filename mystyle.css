@@ -5,6 +5,10 @@ bianco: f8f4ed
 rosa: cca4a3
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Helvetica', 'sans-serif';
@@ -14,6 +18,9 @@ body {
 }
 
 .logo-container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between; /*Spazio tra logo e button*/
  position: absolute;
  top: 2vw;
  left: 4vw;
@@ -29,10 +36,15 @@ body {
     height: auto;
 }
 
+.button-container {
+  display: flex; /* Raggruppa i button */
+  gap: 25px; /* Spaziatura tra i button */
+}
+
 .button {
  text-decoration: none; 
  margin-top: auto;
- padding: 5px 15px;
+ padding: 5px 0px;
  font-size: 1.3vw;
  font-weight: 200;
  letter-spacing: 3px;
@@ -72,7 +84,7 @@ h3 {
   letter-spacing: 20px;
   text-align: left;
   color: #191815; 
-  margin: 3vw 0;
+  margin: 0 0;
   margin-bottom: 6vw;
 }
 

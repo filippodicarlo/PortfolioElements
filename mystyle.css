@@ -202,14 +202,14 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   font-size: clamp(12px, 2vw, 30px);
 }
 
-.posters-container, .rebranding-container {
+.posters-container, .frames-container {
  width: 90vw;
  max-width: 90%;
  padding: 5vw; 
  text-align: left;
 }
 
-  .posters-title, .rebranding-title {
+  .posters-title, .frames-title {
   font-family: 'Helvetica', sans-serif;
   font-size: clamp(18px, 2vw, 80px);
   max-width: 90%;

@@ -129,7 +129,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     letter-spacing: 10px;
     }
 
-  .posters-title {
+  .posters-title, .frames-title, .rebrand-title {
     font-size: 15px;    
     }
     
@@ -180,7 +180,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     letter-spacing: 10px;
     }
     
-  .posters-title {
+  .posters-title, .frames-title, .rebrand-title {
     font-size: 15px;    
     }
     
@@ -202,14 +202,14 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   font-size: clamp(12px, 2vw, 30px);
 }
 
-.posters-container, .frames-container {
+.posters-container, .frames-container, .rebrand-container {
  width: 90vw;
  max-width: 90%;
  padding: 5vw; 
  text-align: left;
 }
 
-  .posters-title, .frames-title {
+  .posters-title, .frames-title, .rebrand-title {
   font-family: 'Helvetica', sans-serif;
   font-size: clamp(18px, 2vw, 80px);
   max-width: 90%;

@@ -171,7 +171,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     
     h1 {
     font-size: 50px;
-    margin-top: 7vw; /* Aumenta lo spazio sopra l'h1 su schermi piccoli */
+    margin-top: 3vw; /* Aumenta lo spazio sopra l'h1 su schermi piccoli */
     max-width: 90%;
     letter-spacing: 10px;
   }

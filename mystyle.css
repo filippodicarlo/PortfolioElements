@@ -202,14 +202,14 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   font-size: clamp(12px, 2vw, 30px);
 }
 
-.posters-container {
+.posters-container, .rebranding-container {
  width: 90vw;
  max-width: 90%;
  padding: 5vw; 
  text-align: left;
 }
 
-  .posters-title {
+  .posters-title, .rebranding-title {
   font-family: 'Helvetica', sans-serif;
   font-size: clamp(18px, 2vw, 80px);
   max-width: 90%;
@@ -237,6 +237,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 .grid-item:hover {
   opacity: 40%;  
 }
+
     
 
 a {

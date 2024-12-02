@@ -64,6 +64,18 @@ h1 {
   margin: 3vw 0;
 }
 
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 3vw;
+  max-width: 90%;
+  font-weight: 100;
+  letter-spacing: 20px;
+  text-align: left;
+  color: #191815; 
+  margin: 3vw 0;
+  margin-bottom: 6vw;
+}
+
 
 @media (max-width: 768px) {
   .title-container {
@@ -76,6 +88,11 @@ h1 {
     max-width: 90%;
     letter-spacing: 20px;
   }
+    
+     h3 {
+    font-size: 26px;
+    letter-spacing: 10px;
+    }
     
   .button {
     padding: 5px 5px;
@@ -107,6 +124,11 @@ h1 {
     max-width: 90%;
     letter-spacing: 10px;
   }
+    
+    h3 {
+    font-size: 26px;
+    letter-spacing: 10px;
+    }
     
  .button {
     padding: 5px 5px;    

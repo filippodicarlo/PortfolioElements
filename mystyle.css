@@ -195,11 +195,15 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 }
 
 
-.descrizione {
+.descrizione, .frames-descrizione {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 5px;
   font-weight: 200;
   font-size: clamp(12px, 2vw, 30px);
+}
+
+.frames-descrizione {
+  margin-bottom: 4vw;
 }
 
 .posters-container, .frames-container, .rebrand-container {

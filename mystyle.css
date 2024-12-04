@@ -210,7 +210,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
  width: 90vw;
  max-width: 90%;
  padding: 5vw; 
- text-align: left;
+ text-align: left; 
 }
 
   .posters-title, .frames-title, .rebrand-title {
@@ -222,6 +222,8 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   text-align: left;
   color: #191815; 
   margin: 3vw 0;
+  border-top: 2px solid #191815; 
+  padding-top: 2vw;
 } 
 
 .grid-container {
@@ -253,7 +255,7 @@ a {
 
 .divider {
     max-width: 100vw;
-    height: 3px;
+    height: 2px;
     background-color: #191815;
 }
 

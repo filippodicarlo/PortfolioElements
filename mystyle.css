@@ -3,6 +3,7 @@ nero: 191815
 giallo: ffc500
 bianco: f8f4ed
 rosa: cca4a3
+rosso: b32821
 */
 
 html {
@@ -55,7 +56,6 @@ body {
 }
 
 .button:hover {
- text-decoration: underline;
  font-weight: 500;
 }
 
@@ -84,7 +84,6 @@ h3 {
   font-weight: 100;
   letter-spacing: 20px;
   text-align: left;
-  color: #191815; 
   margin: 0 0;
   margin-bottom: 6vw;
 }
@@ -247,9 +246,13 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     
 
 a {
-  color: #191815;
+  color: #b32821;
   font-family: 'Helvetica', sans-serif;   
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
 }
 
 
@@ -281,6 +284,7 @@ a {
 }
 
 .link {
+   color: #b32821;
    font-family: 'Courier New', sans-serif;
    font-size: 12px;
    font-weight: 100; 

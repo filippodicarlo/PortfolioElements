@@ -7,6 +7,9 @@ function setup() {
   const container = document.getElementById('sketch-container');
   const w = container.offsetWidth;
   const h = container.offsetHeight;
+  if (windowWidth <= 480) {
+    h = windowHeight * 0.4;
+  }
   let canvas = createCanvas(w, h);
   canvas.parent('sketch-container');
   angleMode(DEGREES);

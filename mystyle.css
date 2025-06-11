@@ -191,7 +191,21 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     
   .grid-item {
     max-width: 90%;
-  }  
+  }
+
+#sketch-container {
+    width: 95vw;
+    height: auto;
+    margin: 1rem auto 3rem auto;
+    min-height: 300px;
+  }
+
+  #sketch-container canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 

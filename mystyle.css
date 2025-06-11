@@ -195,7 +195,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 }
 
 
-.descrizione, .frames-descrizione, .rebrand-descrizione {
+.descrizione, .frames-descrizione, .rebrand-descrizione, .sketch-descrizione {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 5px;
   font-weight: 200;
@@ -206,7 +206,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   margin-bottom: 4vw;
 }
 
-.posters-container, .frames-container, .rebrand-container {
+.posters-container, .frames-container, .rebrand-container, .sketch-container {
  width: 90vw;
  max-width: 90%;
  padding: 5vw; 

@@ -63,7 +63,7 @@ body {
 .title-container {
  width: 90vw;
  max-width: 90%;
- padding: 5vw; 
+ padding: 3vw 5vw; 
  text-align: left;
 }
 
@@ -86,7 +86,7 @@ h3 {
   letter-spacing: 20px;
   text-align: left;
   margin: 0 0;
-  margin-bottom: 6vw;
+  margin-bottom: 3vw;
 }
 
 /*MEDIA 768PX*/
@@ -95,15 +95,15 @@ h3 {
 .logo-container {
 display: flex;
 margin-bottom: 20px;
-flex-direction: column; /* Elementi in colonna */
+flex-direction: row; /* Elementi in riga */
 align-items: flex-start; /* Allinea tutto a sinistra */
     }
 
  .button-container {
     margin-top: 15px;
     justify-content: center; /* Centra i bottoni sotto al logo */
-    flex-direction: column; /* Bottoni in verticale */
-    width: 20%;
+    flex-direction: row; /* Bottoni in verticale */
+    width: auto;
     }
     
   .button {
@@ -141,6 +141,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
         max-width: 90%;
     }
 }
+/*-----------------------------------*/
 
 /*MEDIA 480PX*/
 @media (max-width: 480px) {
@@ -148,15 +149,15 @@ align-items: flex-start; /* Allinea tutto a sinistra */
  .logo-container {
     display: flex;
     margin-bottom: 20px;
-    flex-direction: column; /* Elementi in colonna */
+    flex-direction: row; /* Elementi in riga */
     align-items: flex-start; /* Allinea tutto a sinistra */
 }
 
  .button-container {
     margin-top: 15px; 
     justify-content: center; /* Centra i bottoni sotto al logo */
-    flex-direction: column; /* Bottoni in verticale */
-    width: 20%;
+    flex-direction: row;
+    width: auto;
     }
     
  .button {
@@ -193,13 +194,14 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     max-width: 90%;
   }  
 }
-
+/*-----------------------------------*/
 
 .descrizione, .frames-descrizione, .rebrand-descrizione {
   font-family: 'Helvetica', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-weight: 200;
-  font-size: clamp(12px, 2vw, 30px);
+  font-size: clamp(12px, 1.2vw, 30px);
+  line-height: clamp(15px, 1.5vw, 30px);
 }
 
 .frames-descrizione, .rebrand-descrizione {
@@ -209,7 +211,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 .posters-container, .frames-container, .rebrand-container {
  width: 90vw;
  max-width: 90%;
- padding: 5vw; 
+ padding: 3vw 5vw; 
  text-align: left; 
 }
 

@@ -5,6 +5,12 @@ bianco: f8f4ed
 rosa: cca4a3
 rosso: b32821
 */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 html {
     scroll-behavior: smooth;
@@ -61,7 +67,7 @@ body {
 }
 
 .title-container {
- width: 90vw;
+ width: 90%;
  max-width: 90%;
  padding: 3vw 5vw; 
  text-align: left;
@@ -219,7 +225,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 }
 
 .posters-container, .frames-container, .rebrand-container {
- width: 90vw;
+ width: 90%;
  max-width: 90%;
  padding: 3vw 5vw; 
  text-align: left; 
@@ -242,7 +248,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
   display: grid;
     grid-template-columns: repeat(2, 1fr);  /* Crea due colonne */
     grid-gap: 20px;  /* Spazio tra le immagini */
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -269,7 +275,7 @@ a:hover {
 
 
 .divider {
-    max-width: 100vw;
+    max-width: 100%;
     height: 1.5px;
     background-color: #191815;
 }

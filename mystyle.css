@@ -113,7 +113,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     }
     
   .title-container {
-    margin-top: 170px;
+    margin-top: 10vw;
     width: 100%;
     }
     
@@ -146,17 +146,17 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 /*MEDIA 480PX*/
 @media (max-width: 480px) {
     
- .logo-container {
-    display: flex;
-    margin-bottom: 20px;
-    flex-direction: row; /* Elementi in riga */
-    align-items: flex-start; /* Allinea tutto a sinistra */
-}
+.logo-container {
+display: flex;
+margin-bottom: 20px;
+flex-direction: row; /* Elementi in riga */
+align-items: flex-start; /* Allinea tutto a sinistra */
+    }
 
  .button-container {
-    margin-top: 15px; 
+    margin-top: 15px;
     justify-content: center; /* Centra i bottoni sotto al logo */
-    flex-direction: row;
+    flex-direction: row; /* Bottoni in verticale */
     width: auto;
     }
     
@@ -167,7 +167,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     }
     
     .title-container {
-    padding-top: 60px;
+    margin-top: 10vw;
     }
     
     h1 {

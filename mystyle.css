@@ -146,28 +146,38 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 /*MEDIA 480PX*/
 @media (max-width: 480px) {
     
-.logo-container {
-display: flex;
-margin-bottom: 20px;
-flex-direction: row; /* Elementi in riga */
-align-items: flex-start; /* Allinea tutto a sinistra */
-    }
+.logo-container{
+    position: relative;     /* IMPORTANT: toglie l'assoluto del desktop */
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 4vw;
+    margin-bottom: 4vw;
+    display: flex;
+    flex-direction: column; /* logo sopra, bottoni sotto */
+    align-items: flex-start;
+    gap: 3vw;
+  }
 
- .button-container {
-    margin-top: 15px;
-    justify-content: center; /* Centra i bottoni sotto al logo */
-    flex-direction: row; /* Bottoni in verticale */
-    width: auto;
-    }
+ .button-container{
+    display: flex;
+    flex-direction: row;    /* bottoni affiancati */
+    flex-wrap: wrap;        /* se non ci stanno, vanno a capo */
+    gap: 4vw;
+    width: 100%;
+    margin-top: 0;
+    justify-content: flex-start;
+  }
     
  .button {
     padding: 5px 5px;    
     letter-spacing: 1px;
     font-size: 12px;
+    white-space: nowrap;  
     }
     
     .title-container {
-    margin-top: 10vw;
+    margin-top: 5vw;
     }
     
     h1 {

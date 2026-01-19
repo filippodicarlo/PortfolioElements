@@ -216,10 +216,18 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 }
 /*-----------------------------------*/
 
-.descrizione, .frames-descrizione, .rebrand-descrizione {
+.frames-descrizione, .rebrand-descrizione {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 2px;
   font-weight: 200;
+  font-size: clamp(12px, 1.2vw, 30px);
+  line-height: clamp(15px, 1.5vw, 30px);
+}
+
+.descrizione {
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
   font-size: clamp(12px, 1.2vw, 30px);
   line-height: clamp(15px, 1.5vw, 30px);
 }

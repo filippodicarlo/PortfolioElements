@@ -40,7 +40,7 @@ body::before{
   background: #f8f4ed; 
   border: 1.5px solid #191815;          
   padding: 0;
-  max-width: 70ch;
+  max-width: 75ch;
   margin: 0 auto;    
 }
 
@@ -210,9 +210,9 @@ align-items: flex-start; /* Allinea tutto a sinistra */
     }
     
     h1 {
-    font-size: 50px;
+    font-size: 48px;
     max-width: 90%;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
   }
     
     h3 {
@@ -288,6 +288,7 @@ align-items: flex-start; /* Allinea tutto a sinistra */
 .grid-item {
   width: 100%; /* Adatta le immagini alla cella */
   height: auto; /* Mantiene le proporzioni */
+  border: 1.5px solid #191815;    
 }
 
 .grid-item:hover {

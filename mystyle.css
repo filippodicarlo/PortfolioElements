@@ -29,7 +29,7 @@ body::before{
   position: fixed;
   inset: 0;
   z-index: -1;
-  background-image: url("dither.jpg");
+  background-image: url("Sfondo.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;

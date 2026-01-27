@@ -21,25 +21,44 @@ body {
   font-family: 'Helvetica', 'sans-serif';
   color: #191815;
   font-size: 2.1vw;
-  background-color: #f8f4ed;
+  background: #f8f4ed; /* fallback */
 }
+
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url("dither.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  transform: scale(1.02); 
+}
+
+.box-bianco{
+  background: #f8f4ed; 
+  border: 1.5px solid #191815;          
+  padding: 0;
+  max-width: 70ch;
+  margin: 0 auto;    
+}
+
 
 .logo-container {
  z-index: 10;
  display: flex;
  align-items: center;
  justify-content: space-between; /*Spazio tra logo e button*/
- position: absolute;
+ position: relative;
  top: 2vw;
- left: 4vw;
- padding: 5px 5px 5px 1.5vw;
- width: 90vw;
+ padding: 1vw 6vw 0;
+ width: 100%;
  height: auto;
 }
 
 .logo-container img {
-    padding-right: 1vw;
-    width: 8vw;
+    width: 6vw;
     min-width: 80px;
     height: auto;
 }
@@ -57,9 +76,9 @@ body {
  font-size: 1.1vw;
  font-weight: 200;
  letter-spacing: 3px;
- border: none; /* Rimuove eventuali bordi predefiniti */
- outline: none; /* Rimuove eventuali outline predefiniti */
- background: none; /* Assicura che non ci siano sfondi non desiderati */
+ border: none; 
+ outline: none; 
+ background: none; 
 }
 
 .button:hover {
@@ -94,6 +113,8 @@ h3 {
   margin: 0 0;
   margin-bottom: 3vw;
 }
+
+/*-----------------------------------*/
 
 /*MEDIA 768PX*/
 @media (max-width: 768px) {
@@ -296,7 +317,7 @@ a:hover {
    text-align: left;
    margin-top: 2vw;  
    padding-top: 50px;
-   margin: 2vw 5vw 2vw;
+   margin: 2vw 5vw;
 }
 
 .footer-container img{
@@ -304,18 +325,20 @@ a:hover {
 }
 
 .footer{
-   width: 90vw;
+   width: 100%;
    text-align: left;
    font-family: 'Courier New', sans-serif;
-   font-size: 12px;
-   font-weight: 100;
+   font-size: clamp(12px, 0.7vw, 30px);   
+   font-weight: 600;
    padding-bottom: 50px;
    padding-left: 0px;
+   overflow-wrap: anywhere; 
+   word-break: break-word;    
 }
 
 .link {
    color: #b32821;
    font-family: 'Courier New', sans-serif;
-   font-size: 12px;
-   font-weight: 100; 
+   font-size: clamp(12px, 0.7vw, 30px);
+   font-weight: 600; 
 }

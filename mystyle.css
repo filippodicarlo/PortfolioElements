@@ -18,9 +18,9 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: 'Helvetica', 'sans-serif';
-  color: #191815;
+  color: #f8f4ed;
   font-size: 2.1vw;
-  background: #f8f4ed;
+  background: #191815;
   cursor: none;
 }
 
@@ -30,14 +30,12 @@ a, button, input, label, select, textarea,
   cursor: none !important;
 }
 
-
-
 /* ─── CUSTOM CURSOR ────────────────────────────────────── */
 #cursor-dot {
   position: fixed;
   top: 0; left: 0;
   width: 6px; height: 6px;
-  background: #191815;
+  background: #cca4a3;
   border-radius: 0%;
   pointer-events: none;
   z-index: 10002;
@@ -50,7 +48,7 @@ a, button, input, label, select, textarea,
   position: fixed;
   top: 0; left: 0;
   width: 32px; height: 32px;
-  border: 1.5px solid #191815;
+  border: 1.5px solid #cca4a3;
   border-radius: 0%;
   pointer-events: none;
   z-index: 10001;
@@ -63,17 +61,21 @@ a, button, input, label, select, textarea,
 
 body.cursor-hover #cursor-ring {
   width: 52px; height: 52px;
-  background: rgba(179, 40, 33, 0.10);
-  border: 2.5px solid #191815;
+  background: rgba(204, 164, 163, 0.10);
+  border: 2.5px solid #cca4a3;
+}
+body.cursor-hover #cursor-dot {
+  background: #cca4a3;
 }
 
 body.cursor-link #cursor-ring {
   width: 52px; height: 52px;
-  background: rgba(179, 40, 33, 0.10);
-  border: 2.5px solid #191815;
+  background: rgba(204, 164, 163, 0.10);
+  border: 2.5px solid #cca4a3;
 }
-
-
+body.cursor-link #cursor-dot {
+  background: #cca4a3;
+}
 
 /* ─── NAV ──────────────────────────────────────────────── */
 .logo-container {
@@ -83,8 +85,8 @@ body.cursor-link #cursor-ring {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background: #f8f4ed;
-  border-bottom: 1.5px solid #191815;
+  background: #191815;
+  border-bottom: 1.5px solid #f8f4ed;
   padding: 1vw 6vw;
   width: 100%;
   height: auto;
@@ -95,6 +97,7 @@ body.cursor-link #cursor-ring {
   min-width: 80px;
   height: auto;
   transition: opacity 0.3s ease;
+  filter: invert(1);
 }
 .logo-container img:hover { opacity: 0.5; }
 
@@ -104,7 +107,7 @@ body.cursor-link #cursor-ring {
 }
 
 .button {
-  color: #191815;
+  color: #f8f4ed;
   text-decoration: none;
   padding: 5px 0;
   font-size: 1.1vw;
@@ -122,7 +125,7 @@ body.cursor-link #cursor-ring {
   position: absolute;
   bottom: 0; left: 0;
   width: 0; height: 1px;
-  background: #191815;
+  background: #f8f4ed;
   transition: width 0.3s ease;
 }
 .button:hover { font-weight: 900; letter-spacing: 4px; }
@@ -139,12 +142,13 @@ body.cursor-link #cursor-ring {
 
 h1 {
   font-family: 'Helvetica', sans-serif;
-  font-size: 10vw;
+  font-size: 12vw;
   max-width: 90%;
-  font-weight: 100;
-  letter-spacing: 35px;
+  font-weight: 600;
+  letter-spacing: 25px;
   text-align: left;
-  color: #191815;
+  color: #cca4a3;
+  text-transform: uppercase;
   margin: 3vw 0;
 }
 
@@ -155,6 +159,7 @@ h3 {
   font-weight: 100;
   letter-spacing: 20px;
   text-align: left;
+  color: #f8f4ed;
   margin: 0 0 3vw;
 }
 
@@ -190,6 +195,7 @@ h3 {
   font-weight: 400;
   font-size: clamp(12px, 1.2vw, 30px);
   line-height: clamp(15px, 1.8vw, 32px);
+  color: #f8f4ed;
 }
 
 .frames-descrizione, .rebrand-descrizione {
@@ -199,6 +205,7 @@ h3 {
   font-size: clamp(12px, 1.2vw, 30px);
   line-height: clamp(15px, 1.8vw, 32px);
   margin-bottom: 4vw;
+  color: #f8f4ed;
 }
 
 /* ─── SEZIONI ──────────────────────────────────────────── */
@@ -216,9 +223,9 @@ h3 {
   font-weight: 800;
   letter-spacing: 2vw;
   text-align: left;
-  color: #191815;
+  color: #cca4a3;
   margin: 3vw 0;
-  border-top: 1.5px solid #191815;
+  border-top: 1.5px solid #f8f4ed;
   padding-top: 2vw;
 }
 
@@ -233,52 +240,53 @@ h3 {
 .grid-item-wrap {
   position: relative;
   overflow: hidden;
-  border: 1.5px solid #191815;
+  border: 1.5px solid #f8f4ed;
   display: block;
   height: clamp(140px, 26vw, 1000px);
 }
 
 .grid-item {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  opacity: 0.5;    
   transition: transform 0.5s cubic-bezier(.16,1,.3,1), opacity 0.5s ease;
-  object-fit: cover;    
+  object-fit: cover;
 }
 
 .grid-item-wrap:hover .grid-item {
   transform: scale(1.04);
-  opacity: 0.55;
+  opacity: 0.8;
 }
 
 .grid-item-wrap .img-label {
   position: absolute;
-  bottom: 12px; left: 14px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
   font-family: 'Helvetica', sans-serif;
-  letter-spacing: 20vw;    
-  font-size: clamp(12px, 1vw, 800px);
+  font-size: clamp(12px, 1.5vw, 140px);
   font-weight: 700;
-  letter-spacing: 1vw;
+  letter-spacing: 15px;
+  padding: 3px 7px 3px 22px; /* top right bottom left — 7px + 15px di letter-spacing */
   color: #cca4a3;
-  border: 1px solid #191815;    
+  border: 1px solid #cca4a3;
   text-transform: uppercase;
   background: #191815;
-  padding: 3px 7px;       
-  opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 0.35s ease, transform 0.35s ease;
+  opacity: 1;
+  transition: opacity 0.35s ease;
   pointer-events: none;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .grid-item-wrap:hover .img-label {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(-50%, -50%);
 }
 
 /* ─── LINKS ────────────────────────────────────────────── */
 a {
-  color: #191815;
+  color: #f8f4ed;
   font-family: 'Helvetica', sans-serif;
   text-decoration: underline;
 }
@@ -288,7 +296,7 @@ a:hover { font-weight: 500; }
 .divider {
   max-width: 100%;
   height: 1px;
-  background-color: #191815;
+  background-color: #f8f4ed;
 }
 
 .footer-container {
@@ -297,7 +305,10 @@ a:hover { font-weight: 500; }
   margin: 2vw 5vw;
 }
 
-.footer-container img { width: 10vw; }
+.footer-container img {
+  width: 10vw;
+  filter: invert(1);
+}
 
 .footer {
   width: 100%;
@@ -308,17 +319,16 @@ a:hover { font-weight: 500; }
   padding-bottom: 50px;
   overflow-wrap: anywhere;
   word-break: break-word;
+  color: #f8f4ed;
 }
 
 .link {
-  color: #191815;
+  color: #cca4a3;
   font-family: 'Courier New', sans-serif;
   font-size: clamp(12px, 0.7vw, 30px);
   font-weight: 300;
 }
-.link:hover {
-  font-weight: 1000;    
-}
+.link:hover { font-weight: 700; }
 
 /* ─── MEDIA 768px ──────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -349,6 +359,20 @@ a:hover { font-weight: 500; }
   .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
   .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }
   .grid-item-wrap { max-width: 90%; }
+
+  .grid-item-wrap .img-label {
+    position: static;
+    display: block;
+    opacity: 1;
+    transform: none;
+    background: none;
+    border: none;
+    color: #cca4a3;
+    padding: 6px 0 0 0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    white-space: normal;
+  }
 }
 
 /* ─── MEDIA 480px ──────────────────────────────────────── */
@@ -380,10 +404,16 @@ a:hover { font-weight: 500; }
   .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
   .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }
   .grid-item-wrap { max-width: 90%; }
+    
+  .grid-item-wrap .img-label {
+  letter-spacing: 1px;
+  padding: 3px 7px 3px 8px; /* 7px + 1px di letter-spacing */
+}    
 }
 
 
-/* ─── LIGHTBOX IMMAGINI ─────────────────────────────────────────── */
+
+/* ─── LIGHTBOX ─────────────────────────────────────────── */
 #lightbox {
   display: none;
   position: fixed;
@@ -393,26 +423,29 @@ a:hover { font-weight: 500; }
   justify-content: center;
 }
 #lightbox.active { display: flex; }
+
 #lightbox-bg {
   position: absolute;
   inset: 0;
   background: rgba(25, 24, 21, 0.95);
   animation: fadeIn 0.3s ease;
 }
+
 #lightbox-img {
   position: relative;
   z-index: 1;
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  border: 1.5px solid #191815;
+  border: 1.5px solid #f8f4ed;
   animation: zoomIn 0.35s cubic-bezier(.16,1,.3,1);
 }
+
 #lightbox-close {
   position: fixed;
   top: 24px; right: 32px;
-  background: #f8f4ed;
-  border: 1.5px solid #191815;
+  background: #191815;
+  border: 1.5px solid #f8f4ed;
   color: #cca4a3;
   font-size: 18px;
   font-family: 'Helvetica', sans-serif;

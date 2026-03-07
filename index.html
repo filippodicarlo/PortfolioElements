@@ -14,6 +14,7 @@
 <div id="lightbox">
   <div id="lightbox-bg"></div>
   <img id="lightbox-img" src="" alt="">
+  <button id="lightbox-close">✕</button>
 </div>
   <!-- CURSORE CUSTOM -->
   <div id="cursor-dot"></div>
@@ -235,6 +236,7 @@ function closeLightbox() {
 }
 
 lightboxBg.addEventListener('click', closeLightbox);
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);      
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
     /* ── SCROLL REVEAL ─────────────────────────────────────── */

@@ -1,83 +1,231 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="description" content="Il sito web mira a mostrare i miei principali lavori grafici">
- <script data-goatcounter="https://fdc.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Il sito web mira a mostrare i miei principali lavori grafici">
+  <script data-goatcounter="https://fdc.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <title>Filippo Di-Carlo</title>
-    <link rel="icon" type="image/png" href="favicon_1.png">
-    <link rel="stylesheet" href="mystyle.css">
+  <link rel="icon" type="image/png" href="favicon_1.png">
+  <link rel="stylesheet" href="mystyle.css">
 </head>
-    
-   
+
 <body>
+<div id="lightbox">
+  <div id="lightbox-bg"></div>
+  <img id="lightbox-img" src="" alt="">
+</div>
+  <!-- CURSORE CUSTOM -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
 
-<div class="box-bianco">
-     
-  <div id="top" class="logo-container">
-    <a href="index.html"><img src="Logo_d-c.png" alt="logo Filippo Di-Carlo |Graphic / Motion / Type designer"></a> 
-      
-    <div class="button-container"><a href="https://filippodicarlo.github.io/caractera.vf/" class="button" target="_blank" rel="noopener noreferrer">CARACTERA</a>
-    
-    <a href="https://www.brixelstudio.it/egyptiandidone/" class="button" target="_blank" rel="noopener noreferrer">EGYPTIAN DIDONE</a>
-        
-    <a href="#contacts" class="button">CONTACTS</a>
+  <div class="box-bianco">
+
+    <!-- NAV -->
+    <div id="top" class="logo-container">
+      <a href="index.html">
+        <img src="Logo_d-c.png" alt="logo Filippo Di-Carlo | Graphic / Motion / Type designer">
+      </a>
+      <div class="button-container">
+        <a href="https://filippodicarlo.github.io/caractera.vf/" class="button" target="_blank" rel="noopener noreferrer">CARACTERA</a>
+        <a href="https://www.brixelstudio.it/egyptiandidone/" class="button" target="_blank" rel="noopener noreferrer">EGYPTIAN DIDONE</a>
+        <a href="#contacts" class="button">CONTACTS</a>
+      </div>
     </div>
-  </div>
 
-<div class="title-container">
- <h1>Filippo<br>Di-Carlo<br></h1>
- <h3>Visual Designer</h3>
-    
- <p class="descrizione">Hi, I'm Filippo Di-Carlo. I'm a Graphic, Motion and Type Designer.<br>I study at the Albertina Academy of Fine Arts in Turin, where I delve into visual design, motion graphics and typography to create creative and innovative projects.<br>
-</div>
+    <!-- TITOLO -->
+    <div class="title-container">
+      <h1 class="reveal-title">Filippo<br>Di-Carlo</h1>
+      <h3 class="reveal-title">Visual Designer</h3>
+      <p class="descrizione reveal-title">
+        Hi, I'm Filippo Di-Carlo. I'm a Graphic, Motion and Type Designer.<br>
+        I study at the Albertina Academy of Fine Arts in Turin, where I delve into visual design,
+        motion graphics and typography to create creative and innovative projects.
+      </p>
+    </div>
 
-<div class="posters-container">
-  <h1 class="posters-title">POSTER SERIES</h1>
-  <div class="grid-container">
-    <a href="Poster_motion.jpeg"><img src="Poster_motion_cover.jpeg" alt="Motion Poster Project" class="grid-item"></a>
-    <a href="Poster_tangibility.jpeg"><img src="Poster_tangibility_cover.jpeg" alt="Tangibility Poster Project" class="grid-item"></a>
-    <a href="Poster_gradient.jpeg"><img src="Poster_gradient_cover.jpeg" alt="Fading Gradient Poster Project" class="grid-item"></a>
-    <a href="Poster_SearchingFor.jpeg"><img src="Poster_SearchingFor_cover.jpeg" alt="Searching For Poster Project" class="grid-item"></a>
-  </div>
-</div>
+    <!-- POSTER SERIES -->
+    <div class="posters-container reveal">
+      <h1 class="posters-title">POSTER SERIES</h1>
+      <div class="grid-container">
+        <a data-img="Poster_motion.jpeg" class="grid-item-wrap">
+          <img src="Poster_motion_cover.jpeg" alt="Motion Poster Project" class="grid-item">
+          <span class="img-label">Motion</span>
+        </a>
+        <a data-img="Poster_tangibility.jpeg" class="grid-item-wrap">
+          <img src="Poster_tangibility_cover.jpeg" alt="Tangibility Poster Project" class="grid-item">
+          <span class="img-label">Tangibility</span>
+        </a>
+        <a data-img="Poster_gradient.jpeg" class="grid-item-wrap">
+          <img src="Poster_gradient_cover.jpeg" alt="Fading Gradient Poster Project" class="grid-item">
+          <span class="img-label">Fading Gradients</span>
+        </a>
+        <a data-img="Poster_SearchingFor.jpeg" class="grid-item-wrap">
+          <img src="Poster_SearchingFor_cover.jpeg" alt="Searching For Poster Project" class="grid-item">
+          <span class="img-label">Searching For</span>
+        </a>
+      </div>
+    </div>
 
-<div class="frames-container">
-  <h1 class="frames-title">FRAMES</h1>
-    <p class="frames-descrizione">Photography is one of my greatest passions, the medium through which I recount everyday moments by transforming them into timeless images.<br> I like to combine the spontaneity of fleeting moments with meticulously detailed compositions, resulting in an aesthetic that weaves together the charm of analog and the precision of digital.</p>
-  <div class="grid-container">
-    <a href="Albero.jpg"><img src="Albero-cover.jpg" alt="A random tree near my house" class="grid-item"></a>
-    <a href="Arberi-Oulx.jpg"><img src="Arberi-Oulx-cover.jpeg" alt="A group of trees in Oulx, Turin" class="grid-item"></a>
-    <a href="Balos.jpg"><img src="Balos-cover.jpg" alt="Balos Bay in Creta, Greece" class="grid-item"></a>
-    <a href="Monte-Oulx.jpg"><img src="Monte-Oulx-cover.jpeg" alt="Mountain summit in Oulx, Turin" class="grid-item"></a>
-    <a href="Prato.jpg"><img src="Prato-cover.jpg" alt="Small green space near my house" class="grid-item"></a>
-    <a href="Scie-in-autostrada.jpg"><img src="Scie-in-autostrada-cover.jpg" alt="Light trails created by car headlights" class="grid-item"></a>
-  </div>
-</div>
+    <!-- FRAMES -->
+    <div class="frames-container reveal">
+      <h1 class="frames-title">FRAMES</h1>
+      <p class="frames-descrizione">
+        Photography is one of my greatest passions, the medium through which I recount everyday
+        moments by transforming them into timeless images.<br>
+        I like to combine the spontaneity of fleeting moments with meticulously detailed compositions,
+        resulting in an aesthetic that weaves together the charm of analog and the precision of digital.
+      </p>
+      <div class="grid-container">
+        <a data-img="Albero.jpg" class="grid-item-wrap">
+          <img src="Albero-cover.jpg" alt="A random tree near my house" class="grid-item">
+          <span class="img-label">Albero</span>
+        </a>
+        <a data-img="Arberi-Oulx.jpg" class="grid-item-wrap">
+          <img src="Arberi-Oulx-cover.jpeg" alt="A group of trees in Oulx, Turin" class="grid-item">
+          <span class="img-label">Oulx</span>
+        </a>
+        <a data-img="Balos.jpg" class="grid-item-wrap">
+          <img src="Balos-cover.jpg" alt="Balos Bay in Creta, Greece" class="grid-item">
+          <span class="img-label">Balos</span>
+        </a>
+        <a data-img="Monte-Oulx.jpg" class="grid-item-wrap">
+          <img src="Monte-Oulx-cover.jpeg" alt="Mountain summit in Oulx, Turin" class="grid-item">
+          <span class="img-label">Monte Oulx</span>
+        </a>
+        <a data-img="Prato.jpg" class="grid-item-wrap">
+          <img src="Prato-cover.jpg" alt="Small green space near my house" class="grid-item">
+          <span class="img-label">Prato</span>
+        </a>
+        <a data-img="Scie-in-autostrada.jpg" class="grid-item-wrap">
+          <img src="Scie-in-autostrada-cover.jpg" alt="Light trails created by car headlights" class="grid-item">
+          <span class="img-label">Scie</span>
+        </a>
+      </div>
+    </div>
 
-<div class="rebrand-container">
-  <h1 class="rebrand-title">REBRAND</h1>
-   <p class="rebrand-descrizione">In this project I revisited Land Rover's logo, aiming to modernize its aesthetic while respecting the brand's original identity. The new version emphasizes simplicity and contemporaneity, with essential lines that convey robustness and elegance, intrinsic characteristics of Land Rover vehicles. I chose to incorporate minimalist lettering and a visual approach that would ensure greater adaptability on different media, from apparel to promotional materials, while keeping the motto “Above and Beyond” at the center.</p>
-  <div class="grid-container">
-    <a href="LR-felpa.jpg"><img src="LR-felpa-cover.jpg" alt="Sweater mockup of Land Rover rebrand proposal" class="grid-item"></a>
-    <a href="LR-rebrand.jpg"><img src="LR-rebrand-cover.jpg" alt="Logo mockup of Land Rover rebrand proposal" class="grid-item"></a>
-  </div>
-</div>
-    
+    <!-- REBRAND -->
+    <div class="rebrand-container reveal">
+      <h1 class="rebrand-title">REBRAND</h1>
+      <p class="rebrand-descrizione">
+        In this project I revisited Land Rover's logo, aiming to modernize its aesthetic while
+        respecting the brand's original identity. The new version emphasizes simplicity and
+        contemporaneity, with essential lines that convey robustness and elegance, intrinsic
+        characteristics of Land Rover vehicles. I chose to incorporate minimalist lettering and a
+        visual approach that would ensure greater adaptability on different media, from apparel to
+        promotional materials, while keeping the motto "Above and Beyond" at the center.
+      </p>
+      <div class="grid-container">
+        <a data-img="LR-felpa.jpg" class="grid-item-wrap">
+          <img src="LR-felpa-cover.jpg" alt="Sweater mockup of Land Rover rebrand proposal" class="grid-item">
+          <span class="img-label">Apparel</span>
+        </a>
+        <a data-img="LR-rebrand.jpg" class="grid-item-wrap">
+          <img src="LR-rebrand-cover.jpg" alt="Logo mockup of Land Rover rebrand proposal" class="grid-item">
+          <span class="img-label">Logo</span>
+        </a>
+      </div>
+    </div>
 
-<div class="divider"></div>
-    
-<div id="contacts" class="footer-container">
-        <a href="#top"><img src="Logo_d-c.png" alt="logo Filippo Di-Carlo |Graphic / Motion / Type designer"></a> 
-        <p class="footer">Copyright | 2024-2026 Filippo Di-Carlo | <a href="mailto:filippodicarlo03@gmail.com" class="link">filippodicarlo03@gmail.com</a><br>	
+    <div class="divider"></div>
+
+    <!-- FOOTER -->
+    <div id="contacts" class="footer-container reveal">
+      <a href="#top">
+        <img src="Logo_d-c.png" alt="logo Filippo Di-Carlo | Graphic / Motion / Type designer">
+      </a>
+      <p class="footer">
+        Copyright | 2024–2026 Filippo Di-Carlo |
+        <a href="mailto:filippodicarlo03@gmail.com" class="link">filippodicarlo03@gmail.com</a><br>
         All rights reserved.<br>
-	    <a href="https://www.instagram.com/dddicarlooo/" target="_blank" rel="noopener noreferrer" class="link">instagram</a>
-        </p>
+        <a href="https://www.instagram.com/dddicarlooo/" target="_blank" rel="noopener noreferrer" class="link">instagram</a>
+      </p>
     </div>
 
-</div>
+  </div><!-- /box-bianco -->
 
- </body>
+  <script>
+    /* ── CUSTOM CURSOR ─────────────────────────────────────── */
+    const dot  = document.getElementById('cursor-dot');
+    const ring = document.getElementById('cursor-ring');
+
+    let mouseX = 0, mouseY = 0;
+    let ringX  = 0, ringY  = 0;
+    const LERP = 0.12;
+
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      dot.style.left = mouseX + 'px';
+      dot.style.top  = mouseY + 'px';
+    });
+
+    (function animateRing() {
+      ringX += (mouseX - ringX) * LERP;
+      ringY += (mouseY - ringY) * LERP;
+      ring.style.left = ringX + 'px';
+      ring.style.top  = ringY + 'px';
+      requestAnimationFrame(animateRing);
+    })();
+
+    /* cambia stato cursore su elementi interattivi */
+    const hoverEls = document.querySelectorAll('.grid-item-wrap');
+    const linkEls  = document.querySelectorAll('.button, .link, footer a, .logo-container a');
+
+    hoverEls.forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+    });
+    linkEls.forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-link'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-link'));
+    });
+
+    document.addEventListener('mouseleave', () => {
+      dot.style.opacity  = '0';
+      ring.style.opacity = '0';
+    });
+    document.addEventListener('mouseenter', () => {
+      dot.style.opacity  = '1';
+      ring.style.opacity = '1';
+    });
+      
+      /* ── LIGHTBOX ──────────────────────────────────────────── */
+const lightbox    = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const lightboxBg  = document.getElementById('lightbox-bg');
+
+document.querySelectorAll('.grid-item-wrap[data-img]').forEach(el => {
+  el.addEventListener('click', () => {
+    lightboxImg.src = el.dataset.img;
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  document.body.style.overflow = '';
+  lightboxImg.src = '';
+}
+
+lightboxBg.addEventListener('click', closeLightbox);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+    /* ── SCROLL REVEAL ─────────────────────────────────────── */
+    const revealEls = document.querySelectorAll('.reveal, .reveal-title');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealEls.forEach(el => observer.observe(el));
+  </script>
+
+</body>
 </html>

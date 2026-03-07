@@ -226,6 +226,7 @@ document.querySelectorAll('.grid-item-wrap[data-img]').forEach(el => {
     lightboxImg.src = el.dataset.img;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
+    document.body.classList.add('lightbox-open');    // ← aggiungi   
   });
 });
 
@@ -233,6 +234,7 @@ function closeLightbox() {
   lightbox.classList.remove('active');
   document.body.style.overflow = '';
   lightboxImg.src = '';
+  document.body.classList.remove('lightbox-open');    
 }
 
 lightboxBg.addEventListener('click', closeLightbox);

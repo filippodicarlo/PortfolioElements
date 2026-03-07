@@ -334,12 +334,10 @@ a:hover { font-weight: 500; }
 @media (max-width: 768px) {
   body { cursor: auto; }
   #cursor-dot, #cursor-ring { display: none; }
-
   a, button, input, label, select, textarea,
   .button, .grid-item-wrap, .grid-item, [role="button"] {
     cursor: auto !important;
   }
-
   .logo-container {
     display: flex;
     margin-bottom: 20px;
@@ -359,20 +357,7 @@ a:hover { font-weight: 500; }
   .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
   .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }
   .grid-item-wrap { max-width: 90%; }
-
-  .grid-item-wrap .img-label {
-    position: static;
-    display: block;
-    opacity: 1;
-    transform: none;
-    background: none;
-    border: none;
-    color: #cca4a3;
-    padding: 6px 0 0 0;
-    font-size: 11px;
-    letter-spacing: 1px;
-    white-space: normal;
-  }
+  .grid-item-wrap .img-label { opacity: 1; }
 }
 
 /* ─── MEDIA 480px ──────────────────────────────────────── */
@@ -402,13 +387,7 @@ a:hover { font-weight: 500; }
   h1 { font-size: 48px; max-width: 90%; letter-spacing: 4px; }
   h3 { font-size: 26px; letter-spacing: 10px; }
   .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
-  .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }
-  .grid-item-wrap { max-width: 90%; }
-    
-  .grid-item-wrap .img-label {
-  letter-spacing: 1px;
-  padding: 3px 7px 3px 8px; /* 7px + 1px di letter-spacing */
-}    
+  .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }       
 }
 
 

@@ -198,7 +198,7 @@ h3 {
   color: #f8f4ed;
 }
 
-.frames-descrizione, .rebrand-descrizione {
+.echo-descrizione, .frames-descrizione, .rebrand-descrizione {
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 2px;
   font-weight: 200;
@@ -209,14 +209,14 @@ h3 {
 }
 
 /* ─── SEZIONI ──────────────────────────────────────────── */
-.posters-container, .frames-container, .rebrand-container {
+.echo-container, .posters-container, .frames-container, .rebrand-container {
   width: 100%;
   max-width: 100%;
   padding: 3vw 5vw;
   text-align: left;
 }
 
-.posters-title, .frames-title, .rebrand-title {
+.echo-title, .posters-title, .frames-title, .rebrand-title {
   font-family: 'Helvetica', sans-serif;
   font-size: clamp(18px, 2vw, 80px);
   max-width: 90%;
@@ -355,7 +355,7 @@ a:hover { font-weight: 500; }
   .title-container { margin-top: 10vw; width: 100%; }
   h1 { font-size: 50px; margin-top: 0; max-width: 90%; letter-spacing: 20px; }
   h3 { font-size: 26px; letter-spacing: 10px; }
-  .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
+  echo-title, .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
   .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }
   .grid-item-wrap { max-width: 90%; }
   .grid-item-wrap .img-label {
@@ -394,7 +394,7 @@ a:hover { font-weight: 500; }
   .title-container { margin-top: 5vw; }
   h1 { font-size: 48px; max-width: 90%; letter-spacing: 4px; }
   h3 { font-size: 26px; letter-spacing: 10px; }
-  .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
+  .echo-title, .posters-title, .frames-title, .rebrand-title { font-size: 15px; }
   .grid-container { grid-template-columns: repeat(1, 1fr); grid-gap: 15px; width: 100%; margin: 0; }       
 }
 
